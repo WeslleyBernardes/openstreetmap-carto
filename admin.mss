@@ -1,4 +1,4 @@
-@admin-boundaries: rgba(255,255,255,0.1);
+@admin-boundaries: #f7f7bc;
 
 @admin-simplify: 4;
 @admin-simplify-algorithm: visvalingam-whyatt;
