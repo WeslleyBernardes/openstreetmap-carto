@@ -20,7 +20,7 @@
 @trunk-low-zoom: #ebebeb;
 @primary-low-zoom: #f3f3f3;
 @secondary-low-zoom: #fcfcfc;
-@motorway-fill: #b4cad4;
-@trunk-fill: #cadbd9;
-@primary-fill: #e5e9e6;
+@motorway-fill: #657b84;
+@trunk-fill: #94a4a3;
+@primary-fill: #c9cdca;
 @secondary-fill: #faf9fd;

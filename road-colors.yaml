@@ -19,7 +19,7 @@ classes:
   # Colours for output into the MSS file
   mss:
     fill:
-      lightness: [80, 100]
+      lightness: [50, 100]
       chroma: [10, 0]
     casing:
       lightness: [90, 100]
