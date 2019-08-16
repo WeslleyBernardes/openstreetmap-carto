@@ -46,8 +46,8 @@
 @service-construction: #aaa;
 
 @destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@private-marking: #38f500;
+@private-marking-for-red: #38f500;
 
 @tunnel-casing: grey;
 @bridge-casing: black;
