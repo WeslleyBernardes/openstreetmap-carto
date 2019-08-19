@@ -54,7 +54,7 @@
 @societal_amenities: #ffffe5;   // Lch(99,13,109)
 @tourism: #660033;
 @quarry: #c5c3c3;
-@military: #f55;
+@military: rgba(0,0,0,0);
 @beach: #fff1ba;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
