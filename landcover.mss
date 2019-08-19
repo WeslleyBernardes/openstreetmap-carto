@@ -1,12 +1,12 @@
 // --- Parks, woods, other green things ---
 
-@grass: #cdebb0;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #c8d7ab;        // Lch(84,24,122)
-@forest: #add19e;       // Lch(80,30,135)
+@grass: #D4EDD3;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #D4EDD3;        // Lch(84,24,122)
+@forest: #D4EDD3;       // Lch(80,30,135)
 @forest-text: #D4EDD3;  // Lch(40,30,135)
-@park: #c8facc;         // Lch(94,30,145)
-@allotments: #c9e1bf;   // Lch(87,20,135)
-@orchard: #aedfa3; // also vineyard, plant_nursery
+@park: #D4EDD3;         // Lch(94,30,145)
+@allotments: #D4EDD3;   // Lch(87,20,135)
+@orchard: #D4EDD3; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
 
