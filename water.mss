@@ -1,6 +1,6 @@
-@water-text: #4d80b3;
-@glacier: #ddecec;
-@glacier-line: #9cf;
+@water-text: ##AADAFF;
+@glacier: ##AADAFF;
+@glacier-line: ##AADAFF;
 
 @waterway-text-repeat-distance: 200;
 
