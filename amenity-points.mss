@@ -2,7 +2,7 @@
 @wetland-text: darken(#4aa5fa, 25%); /* Also for marsh and mud */
 @shop-icon: #ac39ac;
 @shop-text: #939;
-@transportation-icon: #0092da;
+@transportation-icon: rgba(222,222,222,0.2);
 @transportation-text: rgba(222,222,222,0.2);
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
