@@ -9,20 +9,20 @@
 @primary-low-zoom-casing: #c1fff9;
 @secondary-low-zoom-casing: #faff00;
 
-@motorway-casing: #F9DD81;
-@trunk-casing: #F9DD81;
-@primary-casing: #F9DD81;
-@secondary-casing: #F9DD81;
+@motorway-casing: #222;
+@trunk-casing: #222;
+@primary-casing: #222;
+@secondary-casing: #222;
 
 @motorway-shield: #222;
 @trunk-shield: #222;
 @primary-shield: #222;
 @secondary-shield: #222;
 
-@motorway-low-zoom: #222;
-@trunk-low-zoom: #222;
-@primary-low-zoom: #222;
-@secondary-low-zoom: #222;
+@motorway-low-zoom: #F9DD81;
+@trunk-low-zoom: #F9DD81;
+@primary-low-zoom: #F9DD81;
+@secondary-low-zoom: #F9DD81;
 
 @motorway-fill: #FDF2AD;
 @trunk-fill: #FDF2AD;
