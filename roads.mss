@@ -25,12 +25,12 @@
 @access-marking-living-street: #fff;
 
 @default-casing: white;
-@tertiary-casing: #fff;
-@residential-casing: #fff;
+@tertiary-casing: #eee;
+@residential-casing: #eee;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #fff;
+@pedestrian-casing: #eee;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
