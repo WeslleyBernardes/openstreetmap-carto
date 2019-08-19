@@ -12,17 +12,17 @@
 @steps-fill: rgba(0,0,0,0);
 @steps-fill-noaccess: rgba(0,0,0,0);
 @cycleway-fill: #fff;
-@cycleway-fill-noaccess: #ff00cf;
-@bridleway-fill: #ff00cf;
-@bridleway-fill-noaccess: #ff00cf;
+@cycleway-fill-noaccess: #fff;
+@bridleway-fill: #fff;
+@bridleway-fill-noaccess: #fff;
 @track-fill: #996600;
 @track-fill-noaccess: #e2c5bb;
 @aeroway-fill: #bbc;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #ff00cf;
-@access-marking-living-street: #ff00cf;
+@access-marking: #fff;
+@access-marking-living-street: #fff;
 
 @default-casing: white;
 @tertiary-casing: #ff00cf;
