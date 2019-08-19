@@ -21,7 +21,7 @@
 @landform-color: #d08f55;
 @leisure-green: darken(@park, 60%);
 @aboriginal: #82643a;
-@religious-icon: #000000;
+@religious-icon: rgba(0,0,0,0);
 
 @landcover-font-size: 10;
 @landcover-wrap-width-size: 30; // 3 em
