@@ -22,5 +22,5 @@
 @secondary-low-zoom: #fcfcfc;
 @motorway-fill: #FDF2AD;
 @trunk-fill: #FDF2AD;
-@primary-fill: #FDF2AD;
+@primary-fill: black;
 @secondary-fill: #faf9fd;
