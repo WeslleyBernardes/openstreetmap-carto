@@ -7,7 +7,7 @@
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
 @airtransport: #4863A0; //also ferry_terminal aeroporto
-@health-color: #BF0000;
+@health-color: rgba(0,0,0,0);
 @amenity-brown: #734a08;
 @gastronomy-icon: #C77400;
 @gastronomy-text: darken(@gastronomy-icon, 5%);
