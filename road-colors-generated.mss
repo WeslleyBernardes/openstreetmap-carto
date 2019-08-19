@@ -9,10 +9,10 @@
 @primary-low-zoom-casing: #c1fff9;
 @secondary-low-zoom-casing: #faff00;
 
-@motorway-casing: #222;
-@trunk-casing: #222;
-@primary-casing: #222;
-@secondary-casing: #222;
+@motorway-casing: #d9b749;
+@trunk-casing: #d9b749;
+@primary-casing: #d9b749;
+@secondary-casing: #d9b749;
 
 @motorway-shield: #222;
 @trunk-shield: #222;
