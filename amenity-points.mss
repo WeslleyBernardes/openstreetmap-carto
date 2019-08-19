@@ -1519,7 +1519,7 @@
 
   [feature = 'natural_volcano'][zoom >= 11] {
     marker-file: url('symbols/natural/peak.svg');
-    marker-fill: #d40000;
+    marker-fill: rgba(222,222,222,0);
     marker-placement: interior;
     marker-clip: false;
   }
@@ -2025,7 +2025,7 @@
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
     text-fill: darken(@landform-color, 30%);
-    [feature = 'natural_volcano'] { text-fill: #d40000; }
+    [feature = 'natural_volcano'] { text-fill: #rgba(222,222,222,0); }
     text-dy: 7;
     [feature = 'tourism_viewpoint'] { text-dy: 11; }
     text-face-name: @standard-font;
