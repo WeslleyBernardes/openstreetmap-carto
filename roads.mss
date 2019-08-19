@@ -5,7 +5,7 @@
 @service-fill: @residential-fill;
 @living-street-fill: #ff00cf;
 @pedestrian-fill: #ff00cf;
-@raceway-fill: ff00cf;
+@raceway-fill: #ff00cf;
 @road-fill: #ff00cf;
 @footway-fill: salmon;
 @footway-fill-noaccess: #bbbbbb;
