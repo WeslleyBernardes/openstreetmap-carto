@@ -43,7 +43,7 @@
 @campsite: #D1ECD2; // also caravan_site, picnic_site
 @cemetery: #D1ECD2; // also grave_yard
 @construction: #D1ECD2; // also brownfield
-@heath: #D1ECD2;
+@heath: #D4EDD3;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
 @place_of_worship: #d0d0d0; // also landuse_religious
 @place_of_worship_outline: darken(@place_of_worship, 30%);
@@ -63,10 +63,10 @@
 
 // --- Sports ---
 
-@pitch: #D1ECD2;           // Lch(85,22,168) also track
+@pitch: #D4EDD3;           // Lch(85,22,168) also track
 @track: @pitch;
 @stadium: @leisure; // also sports_centre
-@golf_course: #D1ECD2;
+@golf_course: #D4EDD3;
 
 #landcover-low-zoom[zoom < 10],
 #landcover[zoom >= 10] {

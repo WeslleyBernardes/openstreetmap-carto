@@ -2025,7 +2025,7 @@
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
     text-fill: darken(@landform-color, 30%);
-    [feature = 'natural_volcano'] { text-fill: #rgba(222,222,222,0); }
+    [feature = 'natural_volcano'] { text-fill: rgba(222,222,222,0); }
     text-dy: 7;
     [feature = 'tourism_viewpoint'] { text-dy: 11; }
     text-face-name: @standard-font;
