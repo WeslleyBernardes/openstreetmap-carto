@@ -4,7 +4,7 @@
 @residential-fill: #ffffff;
 @service-fill: @residential-fill;
 @living-street-fill: #ededed;
-@pedestrian-fill: #dddde8;
+@pedestrian-fill: #e300ff;
 @raceway-fill: pink;
 @road-fill: #ddd;
 @footway-fill: salmon;
