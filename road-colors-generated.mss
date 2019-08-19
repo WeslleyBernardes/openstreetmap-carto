@@ -19,7 +19,7 @@
 @motorway-low-zoom: #FDF2AD;
 @trunk-low-zoom: #FDF2AD;
 @primary-low-zoom: #FDF2AD;
-@secondary-low-zoom: #fcfcfc;
+@secondary-low-zoom: red;
 @motorway-fill: black;
 @trunk-fill: black;
 @primary-fill: black;
