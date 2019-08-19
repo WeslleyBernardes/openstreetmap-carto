@@ -3,7 +3,7 @@
 @shop-icon: #ac39ac;
 @shop-text: #939;
 @transportation-icon: #0092da;
-@transportation-text: #0066ff;
+@transportation-text: rgba(222,222,222,0.2);
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
 @airtransport: #fffc00; //also ferry_terminal
