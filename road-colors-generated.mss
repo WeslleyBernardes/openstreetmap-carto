@@ -18,7 +18,7 @@
 @secondary-shield: #fcfcfc;
 @motorway-low-zoom: #FDF2AD;
 @trunk-low-zoom: #FDF2AD;
-@primary-low-zoom: #FDF2AD;
+@primary-low-zoom: black;
 @secondary-low-zoom: red;
 @motorway-fill: black;
 @trunk-fill: black;
