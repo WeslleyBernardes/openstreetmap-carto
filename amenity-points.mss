@@ -6,7 +6,7 @@
 @transportation-text: rgba(222,222,222,0.2);
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
-@airtransport: #fffc00; //also ferry_terminal
+@airtransport: #4863A0; //also ferry_terminal aeroporto
 @health-color: #BF0000;
 @amenity-brown: #734a08;
 @gastronomy-icon: #C77400;
