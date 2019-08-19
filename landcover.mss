@@ -837,11 +837,11 @@
 .barriers {
   [zoom >= 16] {
     line-width: 0.4;
-    line-color: #ff00cf;
+    line-color: #444;
   }
   [feature = 'barrier_embankment'][zoom >= 14] {
     line-width: 0.4;
-    line-color: #ff00cf;
+    line-color: #444;
   }
   [feature = 'barrier_hedge'][zoom >= 16] {
     line-width: 3;
@@ -851,13 +851,13 @@
   [feature = 'barrier_city_wall'] {
     [zoom >= 15] {
       line-width: 1.5;
-      line-color: lighten(#ff00cf, 30%);
+      line-color: lighten(#444, 30%);
     }
 
     [zoom >= 17] {
       line-width: 3;
       barrier/line-width: 0.4;
-      barrier/line-color: #ff00cf;
+      barrier/line-color: #444;
     }
   }
 }
@@ -897,7 +897,7 @@
     text-name: "[name]";
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
-    text-fill: #ff00cf;
+    text-fill: #999;
     text-size: 10;
     text-face-name: @book-fonts;
     text-placement: line;
