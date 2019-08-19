@@ -19,10 +19,10 @@
 @primary-shield: #222;
 @secondary-shield: #222;
 
-@motorway-low-zoom: #F9DD81;
-@trunk-low-zoom: #F9DD81;
-@primary-low-zoom: #F9DD81;
-@secondary-low-zoom: #F9DD81;
+@motorway-low-zoom: #222;
+@trunk-low-zoom: #222;
+@primary-low-zoom: #222;
+@secondary-low-zoom: #222;
 
 @motorway-fill: #FDF2AD;
 @trunk-fill: #FDF2AD;
