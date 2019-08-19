@@ -13,14 +13,14 @@
 @primary-casing: #000a4e;
 @secondary-casing: #4e0015;
 @motorway-shield: #777777;
-@trunk-shield: #f27093;
+@trunk-shield: #222;
 @primary-shield: #6572c8;
 @secondary-shield: #fcfcfc;
 @motorway-low-zoom: #f91141;
 @trunk-low-zoom: #113df9;
-@primary-low-zoom: #000;
+@primary-low-zoom: ##f27093;
 @secondary-low-zoom: #0eecd8;
 @motorway-fill: #0eec46;
 @trunk-fill: #ec5e0e;
-@primary-fill: black;
+@primary-fill: #59ff00;
 @secondary-fill: #7d0eec;
