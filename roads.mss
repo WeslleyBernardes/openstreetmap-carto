@@ -21,16 +21,16 @@
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #fff;
-@access-marking-living-street: #fff;
+@access-marking: #ddd;
+@access-marking-living-street: #ddd;
 
 @default-casing: white;
-@tertiary-casing: #eee;
-@residential-casing: #eee;
+@tertiary-casing: #ddd;
+@residential-casing: #ddd;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #eee;
+@pedestrian-casing: #ddd;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
