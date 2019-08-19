@@ -3,10 +3,10 @@
 @tertiary-fill: #ffffff;
 @residential-fill: #ffffff;
 @service-fill: @residential-fill;
-@living-street-fill: none;
-@pedestrian-fill: none;
-@raceway-fill: none;
-@road-fill: none;
+@living-street-fill: rgba(0,0,0,0);
+@pedestrian-fill: rgba(0,0,0,0);
+@raceway-fill: rgba(0,0,0,0);
+@road-fill: rgba(0,0,0,0);
 @footway-fill: #ff00cf;
 @footway-fill-noaccess: #ff00cf;
 @steps-fill: #ff00cf;
