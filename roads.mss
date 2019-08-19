@@ -11,7 +11,7 @@
 @footway-fill-noaccess: rgba(0,0,0,0);
 @steps-fill: rgba(0,0,0,0);
 @steps-fill-noaccess: rgba(0,0,0,0);
-@cycleway-fill: #ff00cf;
+@cycleway-fill: #fff;
 @cycleway-fill-noaccess: #ff00cf;
 @bridleway-fill: #ff00cf;
 @bridleway-fill-noaccess: #ff00cf;
@@ -1801,7 +1801,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line-color: grey;
         line-cap: round;
         b/line-width: 4;
-        b/line-color: #ff00cf;
+        b/line-color: #ccc;
         b/line-cap: round;
         b/line-join: round;
       }
