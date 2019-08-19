@@ -15,7 +15,7 @@
 @motorway-shield: #777777;
 @trunk-shield: #222;
 @primary-shield: #6572c8;
-@secondary-shield: #fcfcfc;
+@secondary-shield: #ff0000;
 @motorway-low-zoom: #f91141;
 @trunk-low-zoom: #113df9;
 @primary-low-zoom: ##f27093;
