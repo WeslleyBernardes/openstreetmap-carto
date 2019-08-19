@@ -21,16 +21,16 @@
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-living-street: #cccccc;
+@access-marking: #ff00cf;
+@access-marking-living-street: #ff00cf;
 
 @default-casing: white;
-@tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@tertiary-casing: #ff00cf;
+@residential-casing: #ff00cf;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #999;
+@pedestrian-casing: #ff00cf;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -42,10 +42,10 @@
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #aaa;
-@service-construction: #aaa;
+@minor-construction: #ff00cf;
+@service-construction: #ff00cf;
 
-@destination-marking: #c2e0ff;
+@destination-marking: #ff00cf;
 @private-marking: #38f500;
 @private-marking-for-red: #38f500;
 
@@ -1801,7 +1801,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line-color: grey;
         line-cap: round;
         b/line-width: 4;
-        b/line-color: #bbbbbb;
+        b/line-color: #ff00cf;
         b/line-cap: round;
         b/line-join: round;
       }
