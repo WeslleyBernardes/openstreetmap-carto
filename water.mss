@@ -1,5 +1,5 @@
 @water-text: #AADAFF;
-@glacier: ##AADAFF;
+@glacier: #AADAFF;
 @glacier-line: #AADAFF;
 
 @waterway-text-repeat-distance: 200;
