@@ -15,12 +15,12 @@
 @built-up-z12: #d0d0d0;
 @residential: #e0dfdf;      // Lch(89,0,0)
 @residential-line: #b9b9b9; // Lch(75,0,0)
-@retail: #ffd6d1;           // Lch(89,16,30)
-@retail-line: #d99c95;      // Lch(70,25,30)
-@commercial: #f2dad9;       // Lch(89,8.5,25)
-@commercial-line: #d1b2b0;  // Lch(75,12,25)
-@industrial: #ebdbe8;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
-@industrial-line: #c6b3c3;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
+@retail: rgba(0,0,0,0);           // Lch(89,16,30)
+@retail-line: rgba(0,0,0,0);      // Lch(70,25,30)
+@commercial: rgba(0,0,0,0);       // Lch(89,8.5,25)
+@commercial-line: rgba(0,0,0,0);  // Lch(75,12,25)
+@industrial: rgba(0,0,0,0);       // Lch(89,9,330) (Also used for railway, wastewater_plant)
+@industrial-line: rgba(0,0,0,0);  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
 @farmland: #D1ECD2;         // Lch(94,14,112)
 @farmland-line: #D1ECD2;    // Lch(80,14,112)
 @farmyard: #f5dcba;         // Lch(89,20,80)
@@ -35,7 +35,7 @@
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
-@rest_area: #efc8c8; // also services
+@rest_area: rgba(0,0,0,0); // also services
 
 // --- Other ----
 
@@ -52,9 +52,9 @@
 @power-line: darken(@industrial-line, 5%);
 @sand: #f5e9c6;
 @societal_amenities: #ffffe5;   // Lch(99,13,109)
-@tourism: #660033;
+@tourism: rgba(0,0,0,0);
 @quarry: #c5c3c3;
-@military: #f55;
+@military: rgba(0,0,0,0);
 @beach: #fff1ba;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
