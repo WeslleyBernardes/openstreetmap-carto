@@ -8,8 +8,8 @@
 @accommodation-text: @transportation-text;
 @airtransport: #4863A0; //also ferry_terminal aeroporto
 @health-color: rgba(0,0,0,0);
-@amenity-brown: #734a08;
-@gastronomy-icon: #C77400;
+@amenity-brown: #4863A0;
+@gastronomy-icon: #4863A0;
 @gastronomy-text: darken(@gastronomy-icon, 5%);
 @memorials: @amenity-brown;
 @culture: @amenity-brown;
@@ -18,9 +18,9 @@
 @man-made-icon: #ff00cf;
 @advertising-grey: @man-made-icon;
 @barrier-icon: #3f3f3f;
-@landform-color: #d08f55;
+@landform-color: #222;
 @leisure-green: darken(@park, 60%);
-@aboriginal: #82643a;
+@aboriginal: #222;
 @religious-icon: rgba(0,0,0,0);
 
 @landcover-font-size: 10;
@@ -3297,7 +3297,7 @@
   }
   [natural = 'tree']::trunk {
     [zoom >= 18] {
-      trunk/marker-fill: #b27f36;
+      trunk/marker-fill: #4863A0;
       trunk/marker-allow-overlap: true;
       trunk/marker-line-width: 0;
       trunk/marker-width: 2;
