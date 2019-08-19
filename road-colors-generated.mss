@@ -12,10 +12,10 @@
 @trunk-casing: #0e2800;
 @primary-casing: #000a4e;
 @secondary-casing: #4e0015;
-@motorway-shield: #777777;
+@motorway-shield: #222;
 @trunk-shield: #222;
-@primary-shield: #6572c8;
-@secondary-shield: #ff0000;
+@primary-shield: #222;
+@secondary-shield: #222;
 @motorway-low-zoom: #f91141;
 @trunk-low-zoom: #113df9;
 @primary-low-zoom: #f27093;
