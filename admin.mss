@@ -1,4 +1,4 @@
-@admin-boundaries: #222;
+@admin-boundaries: #000a50;
 @transparent-stroke: rgba(0,0,0,0.1);
 @admin-simplify: 4;
 @admin-simplify-algorithm: visvalingam-whyatt;
