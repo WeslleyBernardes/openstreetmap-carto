@@ -18,6 +18,7 @@ overlapping borders correctly.z
 #admin-high-zoom[zoom >= 13] {
   [admin_level = '2'] {
     [zoom >= 4] {
+      background-color: red;
       background/line-join: bevel;
       background/line-color: red;
       background/line-width: 1.2;
