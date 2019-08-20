@@ -16,11 +16,11 @@ overlapping borders correctly.z
 #admin-low-zoom[zoom < 11],
 #admin-mid-zoom[zoom >= 11][zoom < 13],
 #admin-high-zoom[zoom >= 13] {
+  background-color:red;
   [admin_level = '2'] {
     [zoom >= 4] {
-      background-color: red;
       background/line-join: bevel;
-      background/line-color: red;
+      background/line-color: white;
       background/line-width: 1.2;
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
