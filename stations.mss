@@ -1,4 +1,4 @@
-@station-color: #7981b0;
+@station-color: #05ff00;
 @station-text: darken(saturate(@station-color, 15%), 10%);
 
 #stations {
@@ -30,7 +30,7 @@
     }
     [zoom >= 13][station != 'subway'],
     [zoom >= 14][station = 'subway'] {
-      marker-width: 2;
+      marker-width: 6;
     }
     [zoom >= 14] {
       text-name: "[name]";
