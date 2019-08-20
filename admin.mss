@@ -1,5 +1,5 @@
 @admin-boundaries: #4e5358;
-
+@transparent-stroke: rgba(0,0,0,0.1);
 @admin-simplify: 4;
 @admin-simplify-algorithm: visvalingam-whyatt;
 
@@ -174,7 +174,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: #ff6b00;
+      line-color: @transparent-stroke;
       line-width: 1.5;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -196,7 +196,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: #24ff00;
+      line-color: @transparent-stroke;
       line-width: 2;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
