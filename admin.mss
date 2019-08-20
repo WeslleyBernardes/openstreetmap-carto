@@ -9,11 +9,14 @@ For each zoomlevel, all borders come from a single attachment, to handle
 overlapping borders correctly.z
 */
 
-[zoom >= 13] { @admin-boundaries: #a226bb; }
+
 
 #admin-low-zoom[zoom < 11],
 #admin-mid-zoom[zoom >= 11][zoom < 13],
 #admin-high-zoom[zoom >= 13] {
+  [zoom >= 13] { 
+    @admin-boundaries: #a226bb; 
+    }
   [admin_level = '2'] {
     [zoom >= 4] {
       background/line-join: bevel;
