@@ -24,7 +24,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: @admin-boundaries;
+      line-color: #24ff00;
       line-width: 1.2;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -63,7 +63,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: @admin-boundaries;
+      line-color: #ffed00;
       line-width: 0.6;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -87,7 +87,7 @@ overlapping borders correctly.z
       background/line-width: 0.4;
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
-      line-color: @admin-boundaries;
+      line-color: #00f0ff;
       line-join: bevel;
       line-width: 0.4;
       line-simplify: @admin-simplify;
@@ -144,7 +144,7 @@ overlapping borders correctly.z
     background/line-simplify: @admin-simplify;
     background/line-simplify-algorithm: @admin-simplify-algorithm;
     line-join: bevel;
-    line-color: @admin-boundaries;
+    line-color: #1400ff;
     line-width: 2;
     line-simplify: @admin-simplify;
     line-simplify-algorithm: @admin-simplify-algorithm;
@@ -158,7 +158,7 @@ overlapping borders correctly.z
     background/line-simplify: @admin-simplify;
     background/line-simplify-algorithm: @admin-simplify-algorithm;
     line-join: bevel;
-    line-color: @admin-boundaries ;
+    line-color: #f200ff;
     line-width: 2;
     line-simplify: @admin-simplify;
     line-simplify-algorithm: @admin-simplify-algorithm;
