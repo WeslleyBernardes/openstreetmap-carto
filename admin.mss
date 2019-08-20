@@ -24,7 +24,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: black;
+      line-color: @admin-boundaries;
       line-width: 2;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
