@@ -6,7 +6,7 @@
 @forest: #D1ECD2;       // Lch(80,30,135)
 @forest-text: #D1ECD2;  // Lch(40,30,135)
 @park: #D1ECD2;         // Lch(94,30,145)
-@allotments: #D1ECD2;   // Lch(87,20,135)
+@allotments: rgba(255,255,255,0.2);   // Lch(87,20,135)
 @orchard: #D1ECD2; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
