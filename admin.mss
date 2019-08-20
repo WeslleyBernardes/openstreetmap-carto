@@ -182,7 +182,7 @@ overlapping borders correctly.z
       line-clip: false;
     }
   }
-  opacity: 0.5;
+  opacity: 1;
   comp-op: darken;
 }
 
