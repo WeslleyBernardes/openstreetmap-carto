@@ -1,4 +1,4 @@
-@admin-boundaries: #a226bb;
+@admin-boundaries: #4e5358;
 
 @admin-simplify: 4;
 @admin-simplify-algorithm: visvalingam-whyatt;
@@ -26,7 +26,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: @admin-boundaries;
+      line-color: #a226bb;
       line-width: 1.2;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -65,7 +65,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: @admin-boundaries;
+      line-color: #a226bb;
       line-width: 0.6;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -89,7 +89,7 @@ overlapping borders correctly.z
       background/line-width: 0.4;
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
-      line-color: @admin-boundaries;
+      line-color: #a226bb;
       line-join: bevel;
       line-width: 0.4;
       line-simplify: @admin-simplify;
