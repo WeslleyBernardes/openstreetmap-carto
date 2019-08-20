@@ -1,4 +1,4 @@
-@admin-boundaries: #4e5358;
+@admin-boundaries: #a226bb;
 
 @admin-simplify: 4;
 @admin-simplify-algorithm: visvalingam-whyatt;
@@ -9,7 +9,11 @@ For each zoomlevel, all borders come from a single attachment, to handle
 overlapping borders correctly.z
 */
 
-
+/*
+  [zoom >= 13] { 
+    @admin-boundaries: #a226bb; 
+    }
+*/
 
 #admin-low-zoom[zoom < 11],
 #admin-mid-zoom[zoom >= 11][zoom < 13],
