@@ -1,4 +1,4 @@
-@building-fill: rgba(0,0,0,0.2);  // Lch(84, 5, 68)
+@building-fill: rgba(255,255,255,0.1);  // Lch(84, 5, 68)
 @building-line: darken(@building-fill, 15%);  // Lch(70, 9, 66)
 @building-low-zoom: darken(@building-fill, 4%);
 
@@ -39,7 +39,7 @@
 
 #bridge {
   [zoom >= 12] {
-    polygon-fill: rgba(0,0,0,0.2);
+    polygon-fill: rgba(255,255,255,0.1);
   }
 }
 
