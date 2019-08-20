@@ -49,8 +49,8 @@
 @private-marking: #38f500;
 @private-marking-for-red: #38f500;
 
-@tunnel-casing: grey;
-@bridge-casing: white;
+@tunnel-casing: #aaa;
+@bridge-casing: #ddd;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);
