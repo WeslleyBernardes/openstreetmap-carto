@@ -10,9 +10,7 @@ overlapping borders correctly.z
 */
 
 /*
-  [zoom >= 13] { 
-    @admin-boundaries: #a226bb; 
-    }
+  
 */
 
 #admin-low-zoom[zoom < 11],
@@ -160,7 +158,7 @@ overlapping borders correctly.z
     background/line-simplify: @admin-simplify;
     background/line-simplify-algorithm: @admin-simplify-algorithm;
     line-join: bevel;
-    line-color: #a226bb;
+    line-color: @admin-boundaries ;
     line-width: 2;
     line-simplify: @admin-simplify;
     line-simplify-algorithm: @admin-simplify-algorithm;
