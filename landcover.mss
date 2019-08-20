@@ -10,11 +10,11 @@
 
 // --- "Base" landuses ---
 
-@built-up-lowzoom: #aaaaaa;
-@built-up-z11: #c0c0c0;
-@built-up-z12: #d0d0d0;
-@residential: #e0dfdf;      // Lch(89,0,0)
-@residential-line: #b9b9b9; // Lch(75,0,0)
+@built-up-lowzoom: rgba(255,255,255,0.2);
+@built-up-z11: rgba(255,255,255,0.2);
+@built-up-z12: rgba(255,255,255,0.2);
+@residential: rgba(255,255,255,0.2);      // Lch(89,0,0)
+@residential-line: rgba(255,255,255,0.2); // Lch(75,0,0)
 @retail: #ffd6d1;           // Lch(89,16,30)
 @retail-line: #d99c95;      // Lch(70,25,30)
 @commercial: #f2dad9;       // Lch(89,8.5,25)
