@@ -19,13 +19,13 @@ overlapping borders correctly.z
   [admin_level = '2'] {
     [zoom >= 4] {
       background/line-join: bevel;
-      background/line-color: white;
+      background/line-color: red;
       background/line-width: 1.2;
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: #24ff00;
-      line-width: 1.2;
+      line-color: black;
+      line-width: 2;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
     }
