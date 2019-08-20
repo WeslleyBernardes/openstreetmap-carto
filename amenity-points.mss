@@ -1749,7 +1749,7 @@
   [feature = 'place_islet'][zoom >= 11][way_pixels > 3000][way_pixels <= 768000],
   [feature = 'place_islet'][zoom >= 17][way_pixels <= 768000] {
     text-name: "[name]";
-    text-fill: #000;
+    text-fill: #fff;
     text-size: @landcover-font-size;
     text-wrap-width: @landcover-wrap-width-size;
     text-line-spacing: @landcover-line-spacing-size;
@@ -2036,7 +2036,7 @@
 
   [feature = 'natural_cape'][zoom >= 14] {
     text-name: "[name]";
-    text-fill: #000;
+    text-fill: #fff;
     text-size: @standard-font-size;
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
