@@ -128,26 +128,26 @@
 @road-width-z14:                  2;
 @service-width-z14:               2;
 
-@motorway-width-z15:             0;
-@motorway-link-width-z15:         0;
-@trunk-width-z15:                0;
-@trunk-link-width-z15:          0;
-@primary-width-z15:              0;
-@primary-link-width-z15:        0;
-@secondary-width-z15:             0;
-@secondary-link-width-z15:        0;
-@tertiary-width-z15:              0;
-@tertiary-link-width-z15:         0;
-@residential-width-z15:           0;
-@living-street-width-z15:         0;
-@pedestrian-width-z15:            0;
-@bridleway-width-z15:             0;
-@footway-width-z15:               0;
-@cycleway-width-z15:              0;
-@track-width-z15:                 0;
-@track-grade1-width-z15:          0;
-@track-grade2-width-z15:          0;
-@steps-width-z15:                 0;
+@motorway-width-z15:             10;
+@motorway-link-width-z15:         7.8;
+@trunk-width-z15:                10;
+@trunk-link-width-z15:          7.8;
+@primary-width-z15:              10;
+@primary-link-width-z15:        7.8;
+@secondary-width-z15:             9;
+@secondary-link-width-z15:        7;
+@tertiary-width-z15:              9;
+@tertiary-link-width-z15:         7;
+@residential-width-z15:           5;
+@living-street-width-z15:         5;
+@pedestrian-width-z15:            5;
+@bridleway-width-z15:             1.2;
+@footway-width-z15:               1;
+@cycleway-width-z15:              0.9;
+@track-width-z15:                 1.5;
+@track-grade1-width-z15:          0.75;
+@track-grade2-width-z15:          0.75;
+@steps-width-z15:                 3;
 
 @secondary-width-z16:            10;
 @tertiary-width-z16:             10;
@@ -279,7 +279,7 @@
 @bridge-casing-width-z20:         0.8;
 @major-bridge-casing-width-z20:   1;
 
-@paths-background-width:          1;
+@paths-background-width:          0;
 @paths-bridge-casing-width:       0.5;
 @paths-tunnel-casing-width:       1;
 
