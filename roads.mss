@@ -279,9 +279,9 @@
 @bridge-casing-width-z20:         0.8;
 @major-bridge-casing-width-z20:   1;
 
-@paths-background-width:          0;
-@paths-bridge-casing-width:       0.5;
-@paths-tunnel-casing-width:       1;
+@paths-background-width:          1;
+@paths-bridge-casing-width:       0;
+@paths-tunnel-casing-width:       0;
 
 @junction-text-color:             #960000;
 @halo-color-for-minor-road:       white;
