@@ -220,7 +220,7 @@ overlapping borders correctly.z
   [zoom >= 16] {
     text-name: "[name]";
     text-face-name: @book-fonts;
-    text-fill: #a226bb;
+    text-fill: @admin-boundaries ;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-largest-bbox-only: false;
