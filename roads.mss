@@ -116,9 +116,9 @@
 @footway-width-z14:               0.7;
 @cycleway-width-z13:              0.7;
 @track-width-z13:                 0.5;
-@track-grade1-width-z13:          0.5;
-@track-grade2-width-z13:          0.5;
-@steps-width-z13:                 0.7;
+@track-grade1-width-z13:          2;
+@track-grade2-width-z13:          2;
+@steps-width-z13:                 2;
 
 @secondary-width-z14:             5;
 @tertiary-width-z14:              5;
