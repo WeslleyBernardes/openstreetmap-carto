@@ -17,10 +17,10 @@
 @office: #4863A0;
 @man-made-icon: rgba(222,222,222,0);
 @advertising-grey: @man-made-icon;
-@barrier-icon: #3f3f3f;
-@landform-color: #222;
+@barrier-icon: rgba(222,222,222,0);
+@landform-color: rgba(222,222,222,0);
 @leisure-green: darken(@park, 60%);
-@aboriginal: #222;
+@aboriginal: rgba(222,222,222,0);
 @religious-icon: rgba(0,0,0,0);
 
 @landcover-font-size: 10;
