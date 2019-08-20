@@ -1,4 +1,5 @@
 // --- Parks, woods, other green things ---
+// --- Cobertura da terra
 
 @grass: #D1ECD2;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: #D1ECD2;        // Lch(84,24,122)
@@ -28,34 +29,34 @@
 
 // --- Transport ----
 
-@transportation-area: #e9e7e2;
-@apron: #dadae0;
-@garages: #D1ECD2;
-@parking: #eeeeee;
+@transportation-area: rgba(255,255,255,0.2);
+@apron: rgba(255,255,255,0.2);
+@garages: rgba(255,255,255,0.2);
+@parking: rgba(255,255,255,0.2);
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
-@rest_area: #efc8c8; // also services
+@rest_area: rgba(255,255,255,0.2); // also services
 
 // --- Other ----
 
-@bare_ground: #eee5dc;
-@campsite: #D1ECD2; // also caravan_site, picnic_site
-@cemetery: #D1ECD2; // also grave_yard
-@construction: #D1ECD2; // also brownfield
-@heath: #D4EDD3;
-@mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
-@place_of_worship: #d0d0d0; // also landuse_religious
+@bare_ground: rgba(255,255,255,0.2);
+@campsite: rgba(255,255,255,0.2); // also caravan_site, picnic_site
+@cemetery: rgba(255,255,255,0.2); // also grave_yard
+@construction: rgba(255,255,255,0.2); // also brownfield
+@heath: rgba(255,255,255,0.2);
+@mud: rgba(255,255,255,0.2); // produces #e6dcd1 over @land
+@place_of_worship: rgba(255,255,255,0.2); // also landuse_religious
 @place_of_worship_outline: darken(@place_of_worship, 30%);
 @leisure: lighten(@park, 5%);
 @power: darken(@industrial, 5%);
 @power-line: darken(@industrial-line, 5%);
-@sand: #f5e9c6;
-@societal_amenities: #ffffe5;   // Lch(99,13,109)
-@tourism: #660033;
-@quarry: #c5c3c3;
-@military: rgba(0,0,0,0);
-@beach: #fff1ba;
+@sand: rgba(255,255,255,0.2);
+@societal_amenities: rgba(255,255,255,0.2);   // Lch(99,13,109)
+@tourism: rgba(255,255,255,0.2);
+@quarry: rgba(255,255,255,0.2);
+@military: rgba(255,255,255,0.2);
+@beach: rgba(255,255,255,0.2);
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
 @water_works: @industrial;
@@ -63,10 +64,10 @@
 
 // --- Sports ---
 
-@pitch: #D4EDD3;           // Lch(85,22,168) also track
+@pitch: rgba(255,255,255,0.2);           // Lch(85,22,168) also track
 @track: @pitch;
 @stadium: @leisure; // also sports_centre
-@golf_course: #D4EDD3;
+@golf_course: rgba(255,255,255,0.2);
 
 #landcover-low-zoom[zoom < 10],
 #landcover[zoom >= 10] {
