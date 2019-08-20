@@ -1,4 +1,4 @@
-@admin-boundaries: #4e5358;
+@admin-boundaries: #222;
 @transparent-stroke: rgba(0,0,0,0.1);
 @admin-simplify: 4;
 @admin-simplify-algorithm: visvalingam-whyatt;
@@ -63,7 +63,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: #ffed00;
+      line-color: @admin-boundaries;
       line-width: 0.6;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -87,7 +87,7 @@ overlapping borders correctly.z
       background/line-width: 0.4;
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
-      line-color: #00f0ff;
+      line-color: @admin-boundaries;
       line-join: bevel;
       line-width: 0.4;
       line-simplify: @admin-simplify;
@@ -182,7 +182,7 @@ overlapping borders correctly.z
       line-clip: false;
     }
   }
-  opacity: 1;
+  opacity: 0.5;
   comp-op: darken;
 }
 
