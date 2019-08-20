@@ -146,7 +146,7 @@ overlapping borders correctly.z
     background/line-simplify: @admin-simplify;
     background/line-simplify-algorithm: @admin-simplify-algorithm;
     line-join: bevel;
-    line-color: #a226bb;
+    line-color: @admin-boundaries;
     line-width: 2;
     line-simplify: @admin-simplify;
     line-simplify-algorithm: @admin-simplify-algorithm;
@@ -160,7 +160,7 @@ overlapping borders correctly.z
     background/line-simplify: @admin-simplify;
     background/line-simplify-algorithm: @admin-simplify-algorithm;
     line-join: bevel;
-    line-color: @admin-boundaries;
+    line-color: #a226bb;
     line-width: 2;
     line-simplify: @admin-simplify;
     line-simplify-algorithm: @admin-simplify-algorithm;
@@ -176,7 +176,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: @admin-boundaries;
+      line-color: #a226bb;
       line-width: 1.5;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -198,7 +198,7 @@ overlapping borders correctly.z
       background/line-simplify: @admin-simplify;
       background/line-simplify-algorithm: @admin-simplify-algorithm;
       line-join: bevel;
-      line-color: @admin-boundaries;
+      line-color: #a226bb;
       line-width: 2;
       line-simplify: @admin-simplify;
       line-simplify-algorithm: @admin-simplify-algorithm;
@@ -222,7 +222,7 @@ overlapping borders correctly.z
   [zoom >= 16] {
     text-name: "[name]";
     text-face-name: @book-fonts;
-    text-fill: @admin-boundaries;
+    text-fill: #a226bb;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-largest-bbox-only: false;
