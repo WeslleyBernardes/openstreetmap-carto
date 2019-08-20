@@ -1,9 +1,9 @@
 // --- Parks, woods, other green things ---
 // --- Cobertura da terra
 
-@grass: #D1ECD2;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@grass: #BAD7B6;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: #D1ECD2;        // Lch(84,24,122)
-@forest: #D1ECD2;       // Lch(80,30,135)
+@forest: #BAD7B6;       // Lch(80,30,135)
 @forest-text: #D1ECD2;  // Lch(40,30,135)
 @park: #D1ECD2;         // Lch(94,30,145)
 @allotments: rgba(255,255,255,0.2);   // Lch(87,20,135)
