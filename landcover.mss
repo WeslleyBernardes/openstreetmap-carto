@@ -224,7 +224,7 @@
   [feature = 'amenity_prison'][zoom >= 10][way_pixels > 75] {
     polygon-pattern-file: url('symbols/grey_vertical_hatch.png');
     polygon-pattern-alignment: global;
-    line-color: #888;
+    line-color: #52ff00;
     line-width: 3;
     line-opacity: 0.329;
   }
@@ -482,7 +482,7 @@
 
   [feature = 'landuse_landfill'] {
     [zoom >= 10] {
-      polygon-fill: #b6b592;
+      polygon-fill: #52ff00;
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
     }
@@ -589,7 +589,7 @@
   [feature = 'amenity_police'][zoom >= 8][way_pixels > 900],
   [feature = 'amenity_fire_station'][zoom >= 13],
   [feature = 'amenity_police'][zoom >= 13] {
-    polygon-fill: #F3E3DD;
+    polygon-fill: #52ff00;
     line-color: @military;
     line-opacity: 0.24;
     line-width: 1.0;
@@ -827,7 +827,7 @@
 
 #area-barriers {
   [zoom >= 16] {
-    line-color: #444;
+    line-color: #52ff00;
     line-width: 0.4;
     [feature = 'barrier_hedge'] {
       polygon-fill: #aed1a0;
@@ -838,11 +838,11 @@
 .barriers {
   [zoom >= 16] {
     line-width: 0.4;
-    line-color: #444;
+    line-color: #52ff00;
   }
   [feature = 'barrier_embankment'][zoom >= 14] {
     line-width: 0.4;
-    line-color: #444;
+    line-color: #52ff00;
   }
   [feature = 'barrier_hedge'][zoom >= 16] {
     line-width: 3;
@@ -898,7 +898,7 @@
     text-name: "[name]";
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
-    text-fill: #999;
+    text-fill: #52ff00;
     text-size: 10;
     text-face-name: @book-fonts;
     text-placement: line;
