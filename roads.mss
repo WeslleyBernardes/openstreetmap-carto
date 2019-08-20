@@ -804,7 +804,7 @@
       #bridges {
         [zoom >= 14] {
           line-width: 1.5;
-          line-color: @bridge-casing;
+          line-color: #ddd;
           line-join: round;
         }
       }
@@ -2207,7 +2207,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_subway'] {
       [zoom >= 12] {
         line-width: 1;
-        line-color: #999;
+        line-color: #ddd;
         #tunnels {
           line-dasharray: 5,3;
         }
