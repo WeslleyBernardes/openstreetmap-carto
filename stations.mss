@@ -1,4 +1,4 @@
-@station-color: #05ff00;
+@station-color: #a6a6a6;
 @station-text: darken(saturate(@station-color, 15%), 10%);
 
 #stations {
@@ -14,7 +14,7 @@
       text-fill: @transportation-icon;
       text-dy: 10;
       text-halo-radius: @standard-halo-radius * 1.5;
-      text-halo-fill: #fff500;
+      text-halo-fill: @standard-halo-fill;
       text-wrap-width: 0;
       text-placement: interior;
     }
