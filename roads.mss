@@ -25,8 +25,8 @@
 @access-marking-living-street: #ddd;
 
 @default-casing: white;
-@tertiary-casing: #888;
-@residential-casing: #ddd;
+@tertiary-casing: #999;
+@residential-casing: #999;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
