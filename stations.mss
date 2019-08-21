@@ -14,7 +14,7 @@
       text-fill: @transportation-icon;
       text-dy: 10;
       text-halo-radius: @standard-halo-radius * 1.5;
-      text-halo-fill: @standard-halo-fill;
+      text-halo-fill: #fff500;
       text-wrap-width: 0;
       text-placement: interior;
     }
