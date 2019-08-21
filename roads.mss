@@ -42,10 +42,10 @@
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #ff00cf;
-@service-construction: #ff00cf;
+@minor-construction: #ccc;
+@service-construction: #ccc;
 
-@destination-marking: #ff00cf;
+@destination-marking: #ccc;
 @private-marking: #38f500;
 @private-marking-for-red: #38f500;
 
