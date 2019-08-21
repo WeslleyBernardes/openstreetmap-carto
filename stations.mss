@@ -2,22 +2,7 @@
 @station-text: darken(saturate(@station-color, 15%), 10%);
 
 #stations {
-  [railway = 'subway_entrance'][zoom >= 18] {
-    marker-file: url('symbols/entrance.10.svg');
-    marker-placement: interior;
-    marker-fill: @transportation-icon;
-    marker-clip: false;
-    [zoom >= 19] {
-      text-name: [ref];
-      text-face-name: @book-fonts;
-      text-size: 10;
-      text-fill: @transportation-icon;
-      text-dy: 10;
-      text-halo-radius: @standard-halo-radius * 1.5;
-      text-halo-fill: @standard-halo-fill;
-      text-wrap-width: 0;
-      text-placement: interior;
-    }
+  
   }
 
   [railway = 'station'][zoom >= 12] {
