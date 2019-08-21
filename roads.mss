@@ -25,7 +25,7 @@
 @access-marking-living-street: #ddd;
 
 @default-casing: white;
-@tertiary-casing: #52ff00;
+@tertiary-casing: #888;
 @residential-casing: #ddd;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
@@ -50,7 +50,7 @@
 @private-marking-for-red: #38f500;
 
 @tunnel-casing: #aaa;
-@bridge-casing: #ddd;
+@bridge-casing: #ff00f0;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);
