@@ -17,20 +17,20 @@
 @bridleway-fill-noaccess: #fff;
 @track-fill: #996600;
 @track-fill-noaccess: #e2c5bb;
-@aeroway-fill: #33ff00;
+@aeroway-fill: #bbc;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #33ff00;
-@access-marking-living-street: #33ff00;
+@access-marking: #ccc;
+@access-marking-living-street: #ccc;
 
 @default-casing: white;
-@tertiary-casing: #33ff00;
-@residential-casing: #33ff00;
+@tertiary-casing: #ccc;
+@residential-casing: #ccc;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #33ff00;
+@pedestrian-casing: #ccc;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -38,18 +38,18 @@
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #33ff00;
+@tertiary-shield: #3b3b3b;
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #33ff00;
-@service-construction: #33ff00;
+@minor-construction: #ccc;
+@service-construction: #ccc;
 
-@destination-marking: #33ff00;
+@destination-marking: #ccc;
 @private-marking: #38f500;
 @private-marking-for-red: #38f500;
 
-@tunnel-casing: #33ff00;
+@tunnel-casing: #aaa;
 @bridge-casing: #755c0a;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
@@ -2095,25 +2095,25 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           light/line-color: white;
           light/line-join: round;
           [feature = 'railway_rail'] {
-            dark/line-color: #ed00fa;
-            dark/line-width: 2;
+            dark/line-color: #dedede;
+            dark/line-width: 1;
             light/line-width: 0.75;
             light/line-dasharray: 8,8;
             [zoom >= 13] {
-              dark/line-width: 3;
+              dark/line-width: 2;
               light/line-width: 1;
             }
             [zoom >= 15] {
               light/line-dasharray: 0,8,8,1;
             }
             [zoom >= 18] {
-              dark/line-width: 4;
-              light/line-width: 2;
+              dark/line-width: 2;
+              light/line-width: 1;
             }
           }
           [feature = 'railway_INT-spur-siding-yard'] {
             dark/line-width: 2;
-            dark/line-color: #ed00fa;
+            dark/line-color: #eee;
             light/line-width: 0.8;
             light/line-dasharray: 0,8,8,1;
             [zoom >= 18] {
