@@ -2147,9 +2147,9 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_funicular'],
     [feature = 'railway_narrow_gauge'] {
       [zoom >= 8] {
-        line-color: #33ff00;
-        [zoom >= 10] { line-color: #33ff00; }
-        [zoom >= 13] { line-color: #33ff00; }
+        line-color: #ccc;
+        [zoom >= 10] { line-color: #aaa; }
+        [zoom >= 13] { line-color: #666; }
         line-width: 1;
         [zoom >= 13] { line-width: 2; }
         #tunnels {
@@ -2161,7 +2161,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_miniature'] {
       [zoom >= 15] {
         line/line-width: 1.2;
-        line/line-color: #33ff00;
+        line/line-color: #999;
         dashes/line-width: 3;
         dashes/line-color: #999;
         dashes/line-dasharray: 1,10;
