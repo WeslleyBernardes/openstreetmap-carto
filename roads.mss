@@ -15,7 +15,7 @@
 @cycleway-fill-noaccess: #fff;
 @bridleway-fill: #fff;
 @bridleway-fill-noaccess: #fff;
-@track-fill: #996600;
+@track-fill: #423a20;
 @track-fill-noaccess: #e2c5bb;
 @aeroway-fill: #bbc;
 @runway-fill: @aeroway-fill;
@@ -2108,7 +2108,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
             }
             [zoom >= 18] {
               dark/line-width: 2;
-              light/line-width: 1;
+              light/line-width: 1 ;
             }
           }
           [feature = 'railway_INT-spur-siding-yard'] {
