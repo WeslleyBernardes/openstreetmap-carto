@@ -2637,7 +2637,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
     [zoom >= 16] {
-      polygon-fill: #33ff00;
+      polygon-fill: #bbbbbb;
       polygon-gamma: 0.65;
     }
   }
@@ -3098,7 +3098,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [zoom >= 15] {
       text-name: "[refs]";
       text-size: 10;
-      text-fill: #33ff00;
+      text-fill: #333;
       text-spacing: 750;
       text-clip: false;
       text-placement: line;
