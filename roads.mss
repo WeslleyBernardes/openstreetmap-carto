@@ -2285,7 +2285,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
 
     [feature = 'railway_disused'] {
       [zoom >= 15] {
-        line-color: #33ff00;
+        line-color: #aaa;
         line-width: 2;
         line-dasharray: 2,4;
         line-join: round;
@@ -2299,7 +2299,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line-color: grey;
         line-cap: round;
         b/line-width: 4;
-        b/line-color: #33ff00;
+        b/line-color: #bbbbbb;
         b/line-cap: round;
         b/line-join: round;
       }
