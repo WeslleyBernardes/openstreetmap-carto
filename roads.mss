@@ -3557,7 +3557,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [highspeed != 'yes'][usage = 'main'] {
       [zoom >= 14] {
         text-name: "[name]";
-        text-fill: #33ff00;
+        text-fill: #666666;
         text-size: 10;
         text-dy: 6;
         text-spacing: 300;
@@ -3587,7 +3587,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [railway = 'construction'] {
     [zoom >= 17] {
       text-name: "[name]";
-      text-fill: #33ff00;
+      text-fill: #666666;
       text-size: 10;
       text-dy: 6;
       text-spacing: 900;
