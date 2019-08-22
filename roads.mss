@@ -2163,7 +2163,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line/line-width: 1.2;
         line/line-color: #33ff00;
         dashes/line-width: 3;
-        dashes/line-color: #33ff00;
+        dashes/line-color: #999;
         dashes/line-dasharray: 1,10;
       }
     }
@@ -2171,7 +2171,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_tram'],
     [feature = 'railway_tram-service'][zoom >= 15] {
       [zoom >= 12] {
-        line-color: #33ff00;
+        line-color: #6E6E6E;
         line-width: 0.75;
         [zoom >= 14] {
           line-width: 1;
