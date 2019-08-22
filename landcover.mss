@@ -1,13 +1,13 @@
 // --- Parks, woods, other green things ---
 // --- Cobertura da terra
 
-@grass: #BAD7B6;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #D1ECD2;        // Lch(84,24,122)
-@forest: #BAD7B6;       // Lch(80,30,135)
-@forest-text: #D1ECD2;  // Lch(40,30,135)
-@park: #D1ECD2;         // Lch(94,30,145)
+@grass: #C6ECB5;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #DEF1DD;        // Lch(84,24,122)
+@forest: #C6ECB5;       // Lch(80,30,135)
+@forest-text: #DEF1DD;  // Lch(40,30,135)
+@park: #DEF1DD;         // Lch(94,30,145)
 @allotments: rgba(255,255,255,0.2);   // Lch(87,20,135)
-@orchard: #D1ECD2; // also vineyard, plant_nursery
+@orchard: #DEF1DD; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
 
