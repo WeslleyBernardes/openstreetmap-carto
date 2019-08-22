@@ -2223,11 +2223,11 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_preserved'] {
       [zoom >= 12] {
         dark/line-width: 1.5;
-        dark/line-color: #33ff00;
+        dark/line-color: #aaa;
         dark/line-join: round;
         [zoom >= 13] {
           dark/line-width: 3;
-          dark/line-color: #33ff00;
+          dark/line-color: #999999;
           light/line-width: 1;
           light/line-color: white;
           light/line-dasharray: 0,1,8,1;
