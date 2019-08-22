@@ -2574,7 +2574,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [feature = 'highway_unclassified'],
   [feature = 'highway_service'] {
     [zoom >= 14] {
-      line-color: #33ff00;
+      line-color: #999;
       line-width: 1;
     }
   }
@@ -2617,7 +2617,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [feature = 'highway_unclassified'],
   [feature = 'highway_service'] {
     [zoom >= 14] {
-      polygon-fill: #33ff00;
+      polygon-fill: #fff;
     }
   }
 
